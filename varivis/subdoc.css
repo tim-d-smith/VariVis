@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+		margin: 0px;
+}
+
+body {
+	background-color : #ffffff;
+	font-size: 10pt;
+	font-family : Arial, sans-serif;
+	margin: 5px;
+}
+
+h1 {
+ font-size: 11pt;
+ font-weight: bold;
+ color: silver;
+ padding-bottom: 16px;
+}
+
+
+div.name {
+	padding : 7px 0px;
+	color : #000000;
+	font-weight : bold;
+	font-size: 12pt;
+	border: 0px solid #000000;
+}
+
+table {
+	color : #000000;
+	font-family : Arial, sans-serif;
+	font-size: 100%;
+	border : 0;
+}
+
+td {
+ padding: 5px 0;
+}
+
+p {
+  padding: 5px 0;
+}
+
+td.category {
+	font-weight : bold;
+}
+td.cat_name {
+   font-weight: bold;
+	 font-size: 11pt;
+}
+
+td.name {
+   font-size: 11pt;
+}
+
+td.data {
+	font-weight : normal;
+	text-align : left;
+}
+
+td.remarks {
+	font-weight : normal;
+	text-align : left;
+}
+
+td.info {
+			 height : 2em;
+			 vertical-align : bottom;
+			 font-weight : bold;
+}
+
+img {
+		border : 0;
+}
+
+h2 {
+	 font-size : 120%;
+}
+
+div.error {
+	border: 2px solid red;
+	background-color: #ff6666;
+	padding: .5em 1em;
+	margin-bottom: 2em;
+	margin-left:165px;
+	color: #000;
+}
+
+

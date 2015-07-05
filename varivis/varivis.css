@@ -1,0 +1,282 @@
+body {
+		 margin : 5px; 
+		 padding : 5px; 
+		 background-color : #ffffff;
+		 color : #000000; 
+		 font-size : 12pt;
+		 font-family : tahoma, sans-serif;
+		 min-width: 800px;
+}
+
+.one {font-size : 12pt;}
+.two {font-size : 10pt;}
+.three {font-size : 8pt;}
+.four {font-size : 6pt;}
+.five {font-size : 4pt;}
+ 
+body a {
+		 color : #006666;
+		 text-decoration : none;
+}
+ 
+body a:hover {
+		 text-decoration : underline; 
+}
+
+table {
+			padding : 0px; 
+			empty-cells : show; 
+			text-align : center; 
+			border : 0px solid #000000;
+			border-spacing: 0px;
+			border-collapse : collapse;
+}
+
+td.b {
+				 color : #000000;
+				 font-weight : normal;
+}
+
+td.m {
+					color : #ff0033; 
+					font-weight : bold;
+					vertical-align : bottom;
+					height: auto;
+} 
+
+td.m a{
+					color : #ff0033; 
+					font-weight : bold; 
+}
+
+td.c {
+			 background-color : #ccffff;
+			 padding: 0;
+			 color: #000000;
+			 height: 3px;
+}
+ 
+td.n {
+			 background-color : #ffffff;
+			 padding: 0;
+			 color: #000000;
+			 height : 3px;
+}
+
+td.pr {
+			 background-color : #6699cc;
+			 padding: 0;
+			 height: 3px;
+			 color: #000000;
+
+}
+
+td.p a{
+		color: red;
+}
+
+td.p {
+    text-align: left;
+    background-color : #ffffff;
+		color: #339966;
+		font-weight: bold;
+}
+
+td.a {
+			 background-color : #990033;
+			 padding: 0;
+			 height: 3px;
+			 color: #000000;
+}
+
+
+
+td.f {
+			 background-color : #cc9966;
+			 padding: 0;
+			 color: #000000;
+			 height: 3px;
+}
+
+td.t {
+			 background-color : #cccc66;
+			 padding: 0;
+			 color: #000000;
+			 height: 3px;
+}
+
+td.r {
+			 background-color : #339966;
+			 padding: 0;
+			 color: #000000;
+			 height: 3px;
+}
+
+td.num_l {
+					color : #000000; 
+					background-color : #ffffff; 
+					font-weight : normal; 
+					font-family : tahoma, sans-serif;  
+					font-size : 75%;
+					width: 32px;
+					text-align: right;
+					padding-right: 1em;					
+}
+
+td.num_r {
+					color : #000000; 
+					background-color : #ffffff; 
+					font-weight : normal; 
+					font-family : tahoma, sans-serif;  
+					font-size : 75%;
+					width: 32px;
+					text-align: left;
+					padding-left:1em;
+}
+
+td {
+	 color : #ff00ff; 
+	 font-family : "Courier New", monospace; 
+	 text-decoration : none; 
+	 font-weight : normal;
+	 font-size : 100%;
+	 vertical-align : top;
+	 border : 0px solid #ffffff;
+	 padding : 0 0.1em;
+	 height : 1.125em;
+}
+
+td.spacer {
+	 height : 16px;
+}
+
+.tooltip {
+				 width : 200px; 
+				 color : #000; 
+				 font : lighter 11px Arial, sans-serif; 
+				 text-decoration : none; 
+				 text-align : center; 
+} 
+
+.tooltip span.top {
+				 padding : 30px 0 0 0;
+				 background : url(i/bt.gif) no-repeat top; 
+}
+
+.tooltip b.bottom {
+				 padding : 3px 8px 15px; 
+				 color : #548912; 
+				 background : url(i/bt.gif) no-repeat bottom; 
+}
+
+img {border: 0px solid black;}
+
+div#overview_wrapper {
+		background-color: #ffffff;
+		z-index: 10;
+    position: fixed;
+		text-align: left;
+		left: 0px;
+		width: 100%;
+		height: 100px;
+		top: 0px;
+		border-bottom: 1px solid silver;
+}
+
+div#width_restraint {
+   border: 0px solid red;
+   max-width:750px;
+}
+
+div#overview_wrapper h1 {
+ font-size: 11pt;
+ font-weight: bold;
+ color: silver;
+}
+
+div#overview {
+				 margin: 16px;
+				 width : 400px;
+				 height : 32px;
+				 padding : 0 5px;
+				 border-top: 2px solid silver;
+				 border-bottom: 2px solid silver;				 
+}
+
+div#overview_legend {
+   border:0px solid blue;
+	 width : 150px; 
+   float : right;
+	 font-family: Arial,sans-serif;
+	 font-size: 7pt;
+} 
+
+div#overview_legend div.top {
+   background : url(i/legend.gif) no-repeat top;
+	 padding: 10px; 
+}
+
+div#overview_legend div.bottom {
+   background : url(i/legend.gif) no-repeat bottom;
+	 padding: 10px; 
+}
+
+span.c {
+   border: 1px solid black;
+	 background-color: #ccffff;
+}
+
+span.nc {
+	 background-color: #ffffff;
+   border: 1px solid black;
+}
+
+
+#tools {
+	 margin: 0px;
+	 font-size : 80%;
+	 border: 0px solid red;
+	 margin-bottom : 16px;
+}
+
+#detail {
+   position:absolute;
+	 width : 100%;
+	 top: 132px;
+	 left: 0;
+	 overflow : hidden; 
+	 padding : 0px;
+	 border: 0px solid pink;
+	 text-align:left;
+}
+
+div#detail h1 {
+ font-size: 11pt;
+ font-weight: bold;
+ color: silver;
+}
+
+form {
+    margin: 0px;
+		padding: 0px;
+}
+ 
+div.error {
+	border: 2px solid red;
+	background-color: #ff6666;
+	padding: .5em 1em;
+	margin-bottom: 2em;
+	color: #000;
+}
+
+iframe.subdoc {
+   overflow : hidden;
+}
+#subdoc {
+	 position: fixed;
+	 left: 675px;
+	 top: 132px;
+	 vertical-align : top; 
+	 border: 0px solid blue;
+} 
+	
